@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainBody{
+    background-color: #CFDAED;
+}
+
+.navHeader{
+    overflow: hidden;
+    background-color:#FFFFFF;
+}
+
+.navHeader a {
+    float: left;
+    color: #3E4756;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+.navHeaderRight {
+    float:right;
+}
+.navHeaderRight a {
+    padding: 10px;
+    margin: 10px;
+}
+.navHeaderRight a:hover {
+    background-color: #96ADCF;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navHeader a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navHeaderRight {
+    float: none;
+  }
+}
+.mainColumn{
+
+}
+
+.loginBox{
+    margin: auto;
+    left:0; right:0;
+    top:0; bottom:0;
+    position: absolute;
+    width: 600px;
+    height: 560px;
+
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+
+.loginForm{
+    width: 60%;
+}
+
+.inputLog{
+    width: 90%;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size:20px;
+    text-align: center;
+    border-color: #3E4756;
+    border-radius: 2px;
+}
+.button {
+    width: 80%;
+    border-color: #F2D1DA;
+    background-color: #F2D1DA;
+    padding: 10px 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #3E4756;
+}
+.button:hover {
+    background-color: #BA9AA3;
+}
+.headerClass{
+    color: #3E4756;
+    text-align: center;
+    font-size:50px;
+}
